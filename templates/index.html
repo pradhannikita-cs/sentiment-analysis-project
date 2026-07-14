@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>E-Consultation Feedback</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+
+<body>
+
+<div class="container">
+
+    <h1>E-Consultation Feedback</h1>
+
+    <form action="/predict" method="POST">
+
+        <textarea 
+        name="comment" 
+        placeholder="Enter your feedback here..."
+        required></textarea>
+
+        <br>
+
+        <button type="submit">
+            Submit Feedback
+        </button>
+
+    </form>
+
+
+    {% if message %}
+        <div class="result">
+            {{ message }}
+        </div>
+    {% endif %}
+
+
+</div>
+
+</body>
+
+</html>

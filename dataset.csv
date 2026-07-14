@@ -1,0 +1,148 @@
+comment,sentiment
+I love this product,positive
+This product is amazing,positive
+This product is excellent,positive
+I really like this product,positive
+This is a great product,positive
+Amazing quality and wonderful product,positive
+I am very happy with this product,positive
+The product works perfectly,positive
+I love this service,positive
+The service is excellent,positive
+This is fantastic,positive
+I enjoyed this a lot,positive
+I hate this product,negative
+This product is horrible,negative
+This product is terrible,negative
+I really dislike this product,negative
+This is a bad product,negative
+Worst product I have ever used,negative
+I am unhappy with this product,negative
+The product does not work,negative
+I hate this service,negative
+The service is awful,negative
+This is disappointing,negative
+I am angry about this,negative
+It is okay,neutral
+It is average,neutral
+Nothing special,neutral
+Not good not bad,neutral
+The experience was normal,neutral
+The doctor was very helpful,positive
+The doctor explained my problem clearly,positive
+I am satisfied with the consultation,positive
+The doctor gave excellent advice,positive
+The response from the doctor was quick,positive
+The doctor was very kind and patient,positive
+I had a great experience with the consultation,positive
+The doctor solved my issue,positive
+The consultation was very useful,positive
+I am happy with the doctor's response,positive
+The doctor understood my problem well,positive
+The treatment advice was excellent,positive
+The doctor was professional and caring,positive
+I received good guidance from the doctor,positive
+The online consultation was amazing,positive
+
+I am not satisfied with the doctor,negative
+The doctor did not understand my problem,negative
+The consultation was very disappointing,negative
+The doctor gave poor advice,negative
+I am unhappy with the consultation,negative
+The response from the doctor was very slow,negative
+The doctor was rude,negative
+My problem was not solved,negative
+The consultation was useless,negative
+I had a bad experience with the doctor,negative
+The doctor did not listen to me,negative
+I was disappointed with the service,negative
+The advice was not helpful,negative
+The doctor ignored my concerns,negative
+The online consultation was terrible,negative
+
+The consultation was okay,neutral
+The doctor response was average,neutral
+It was a normal experience,neutral
+The service was neither good nor bad,neutral
+The consultation was fine,neutral
+I have no opinion about the service,neutral
+The experience was acceptable,neutral
+The doctor response was normal,neutral
+It was an average consultation,neutral
+Nothing special about the service,neutral
+
+The doctor provided a detailed explanation,positive
+I am very pleased with the medical advice,positive
+The doctor answered all my questions,positive
+The consultation process was smooth,positive
+The doctor was supportive throughout the consultation,positive
+I received timely and useful guidance,positive
+The doctor showed great concern for my health,positive
+The consultation helped me understand my condition,positive
+The doctor gave me confidence and reassurance,positive
+I appreciate the doctor's effort and time,positive
+The online appointment was convenient,positive
+The doctor was friendly and respectful,positive
+The treatment plan was effective,positive
+The doctor listened carefully to my concerns,positive
+I had a wonderful consultation experience,positive
+
+The doctor did not provide enough information,negative
+I waited too long for a response,negative
+The doctor was not helpful,negative
+I am unhappy with the treatment suggestion,negative
+The consultation did not solve my issue,negative
+The doctor seemed uninterested,negative
+I received unclear instructions from the doctor,negative
+The online consultation was frustrating,negative
+The doctor failed to address my concerns,negative
+The service quality was poor,negative
+The doctor did not give proper attention,negative
+The consultation took too much time,negative
+I am disappointed with the doctor's response,negative
+The advice I received was confusing,negative
+The experience was stressful,negative
+
+The doctor answered normally,neutral
+The consultation was completed,neutral
+The response was received,neutral
+The service was available,neutral
+The doctor provided basic information,neutral
+The appointment was scheduled,neutral
+The consultation was routine,neutral
+The doctor gave a general response,neutral
+The experience was neither good nor bad,neutral
+The service was acceptable,neutral
+
+The doctor was very helpful,positive
+The doctor explained everything clearly,positive
+I am satisfied with the consultation,positive
+The doctor gave excellent advice,positive
+The doctor listened to my problems,positive
+The doctor was kind and supportive,positive
+The consultation was very useful,positive
+I received good medical guidance,positive
+The doctor answered all my questions,positive
+The online consultation was excellent,positive
+I am happy with the doctor's response,positive
+The treatment advice was helpful,positive
+
+I am not satisfied with the doctor,negative
+The doctor did not understand my problem,negative
+The consultation was disappointing,negative
+The doctor gave poor advice,negative
+The doctor ignored my concerns,negative
+The response was very slow,negative
+I had a bad consultation experience,negative
+The doctor was rude,negative
+The treatment advice was not helpful,negative
+The online consultation was terrible,negative
+I am unhappy with the doctor's response,negative
+The doctor did not listen to me,negative
+
+The consultation was okay,neutral
+The doctor response was average,neutral
+The service was normal,neutral
+The experience was neither good nor bad,neutral
+The consultation was fine,neutral
+It was a regular appointment,neutral
