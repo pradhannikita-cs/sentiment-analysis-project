@@ -44,7 +44,6 @@ It also includes a secure **Admin Dashboard** to view submitted feedback and sen
 * Pickle
 
 ### Frontend
-
 * HTML5
 * CSS3
 
