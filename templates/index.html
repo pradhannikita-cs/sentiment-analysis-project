@@ -3,43 +3,87 @@
 
 <head>
 
-    <title>E-Consultation Feedback</title>
+<title>AI Medical Sentiment Analysis</title>
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
 </head>
 
 
 <body>
 
+
 <div class="container">
 
-    <h1>E-Consultation Feedback</h1>
 
-    <form action="/predict" method="POST">
-
-        <textarea 
-        name="comment" 
-        placeholder="Enter your feedback here..."
-        required></textarea>
-
-        <br>
-
-        <button type="submit">
-            Submit Feedback
-        </button>
-
-    </form>
+<h1>🩺 E-Consultation Feedback System</h1>
 
 
-    {% if message %}
-        <div class="result">
-            {{ message }}
-        </div>
-    {% endif %}
+<p class="subtitle">
+Your feedback helps us improve our services.
+</p>
+
+
+<form action="{{ url_for('predict') }}" method="POST">
+
+
+<textarea 
+name="comment"
+placeholder="Enter your feedback/comment..."
+></textarea>
+
+
+<br>
+
+
+<button type="submit">
+Analyze Feedback
+</button>
+
+
+</form>
+
+
+
+{% if prediction %}
+
+<div class="result">
+
+{% if prediction == 'positive' %}
+
+🟢 Positive Feedback
+
+<p>
+The patient feedback indicates satisfaction.
+</p>
+
+{% elif prediction == 'negative' %}
+
+🔴 Negative Feedback
+
+<p>
+The feedback requires attention and review.
+</p>
+
+{% endif %}
+</div>
+{% endif %}
+
+
+{% if message %}
+
+<div class="thankyou">
+
+{{ message }}
+
+</div>
+
+{% endif %}
+
 
 
 </div>
+
 
 </body>
 

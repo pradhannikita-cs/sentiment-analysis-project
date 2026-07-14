@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📊 Admin Dashboard</h1>
+
+<div class="dashboard">
+
+    <div class="card total">
+        <h3>Total Feedback</h3>
+        <h1>{{ total }}</h1>
+    </div>
+
+    <div class="card positive">
+        <h3>😊 Positive</h3>
+        <h1>{{ positive }}</h1>
+    </div>
+
+    <div class="card neutral">
+        <h3>😐 Neutral</h3>
+        <h1>{{ neutral }}</h1>
+    </div>
+
+    <div class="card negative">
+        <h3>😞 Negative</h3>
+        <h1>{{ negative }}</h1>
+    </div>
+
+</div>
+<div class="header">
+
+    <h1>🩺 Admin Dashboard</h1>
+
+    <a href="{{ url_for('logout') }}" class="logout-btn">
+        🚪 Logout
+    </a>
+
+</div>
+
+<h2>Feedback Records</h2>
+
+<table>
+
+<tr>
+
+<th>ID</th>
+
+<th>Comment</th>
+
+<th>Sentiment</th>
+
+</tr>
+
+{% for feedback in feedbacks %}
+
+<tr>
+
+<td>{{ feedback.id }}</td>
+
+<td>{{ feedback.comment }}</td>
+
+<td>{{ feedback.sentiment }}</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</div>
+
+</body>
+
+</html>
