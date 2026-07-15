@@ -11,11 +11,18 @@
 
 
 <body>
+<div class="menu-container">
 
-<div class="top-bar">
-    <a href="{{ url_for('login') }}" class="admin-btn">
-        🔐 Admin Login
-    </a>
+    <button class="menu-btn" onclick="toggleMenu()">
+        ⋮
+    </button>
+
+    <div class="menu-dropdown" id="menu">
+        <a href="{{ url_for('login') }}">
+            🔐 Admin Login
+        </a>
+    </div>
+
 </div>
 <div class="container">
 
@@ -89,7 +96,12 @@ The feedback requires attention and review.
 
 </div>
 
-
+<script>
+function toggleMenu(){
+    let menu = document.getElementById("menu");
+    menu.classList.toggle("show");
+}
+</script>
 </body>
 
 </html>
