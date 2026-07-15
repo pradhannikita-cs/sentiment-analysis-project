@@ -3,7 +3,7 @@
 
 <head>
 
-<title>AI Medical Sentiment Analysis</title>
+<title>E-Consultation Feedback System</title>
 
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 
@@ -12,7 +12,11 @@
 
 <body>
 
-
+<div class="top-bar">
+    <a href="{{ url_for('login') }}" class="admin-btn">
+        🔐 Admin Login
+    </a>
+</div>
 <div class="container">
 
 
@@ -38,7 +42,7 @@ required
 
 
 <button type="submit">
-Analyze Feedback
+Submit Feedback
 </button>
 
 
